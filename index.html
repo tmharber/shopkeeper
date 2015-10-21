@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Drag 'n' Drop Test</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="center">
+			<div id="question" class="center">
+				<div class="column">CAB</div>
+			</div>
+			<div id="columns">
+				<div class="answers center">
+					<div class="column" draggable="true"></div>
+					<div class="column" draggable="true"></div>
+					<div class="column" draggable="true"></div>
+				</div>
+				<div class="choices">
+					<div class="column" draggable="true">A</div>
+					<div class="column" draggable="true">B</div>
+					<div class="column" draggable="true">C</div>
+					<div class="column" draggable="true">D</div>
+					<div class="column" draggable="true">E</div>
+					<div class="column" draggable="true">F</div>
+					<div class="column" draggable="true">G</div>
+					<div class="column" draggable="true">H</div>
+				</div>
+			</div>
+			<button onclick="checkWinState()">Submit</button>
+			<div class="wintext"></div>
+			<button onclick="newGame()">New Game</button>
+		</div>
+		<script src="js/quiz.js"></script>
+	</body>
+</html>
